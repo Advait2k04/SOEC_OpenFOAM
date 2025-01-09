@@ -1,1 +1,1 @@
-EXE = $(FOAM_USER_APPBIN)/electro_3d/elecFoam
+EXE = $(FOAM_USER_APPBIN)/elecFoam

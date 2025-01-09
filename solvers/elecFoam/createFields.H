@@ -1,9 +1,9 @@
-Info<< "Reading field S1\n" << endl;
-volScalarField S1
+Info<< "Reading field H2\n" << endl;
+volScalarField H2
 (
     IOobject
     (
-        "S1",
+        "H2",
         runTime.timeName(),
         mesh,
         IOobject::MUST_READ,

@@ -41,7 +41,7 @@ solvers
         relTol          0;
     }
 
-    S1
+    H2
     {
 	solver		smoothSolver;
 	smoother	symGaussSeidel;

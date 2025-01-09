@@ -24,14 +24,14 @@ gradSchemes
 {
     default         Gauss linear;
     grad(p)         Gauss linear;
-    grad(S1)	    Gauss linear;
+    grad(H2)	    Gauss linear;
 }
 
 divSchemes
 {
     default         none;
     div(phi,U)      Gauss upwind;
-    div(phi,S1)     Gauss upwind;
+    div(phi,H2)     Gauss upwind;
 }
 
 laplacianSchemes

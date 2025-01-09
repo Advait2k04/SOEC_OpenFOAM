@@ -23,7 +23,7 @@ startTime       0;
 
 stopAt        	endTime;
 
-endTime         5;
+endTime         0.1;
 
 deltaT          0.001;
 
@@ -45,23 +45,7 @@ timePrecision   6;
 
 runTimeModifiable true;
 
-scalar1
-{
-	type scalarTransport;
-	functionObjectLibs ("libsolverFunctionObjects.so");
-
-	enabled true;
-
-	writeControl outputTime;
-	
-	log yes;
-
-	nCorr 1;
-
-	D 0;
-
-	field S1;
-}
+/*
 
 functions
 {
@@ -152,6 +136,7 @@ probeLocations
 );
 
 }
+*/
 
 }
 
